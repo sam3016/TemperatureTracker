@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "775F9C4D-BD04-49EC-BEA3-BDF376D7ACC6",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TemperatureTracker.xcodeproj",
+      "identifier" : "A1E77D262A55B83D00D55D7C",
+      "name" : "TemperatureTracker"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TemperatureTracker.xcodeproj",
+        "identifier" : "A1319D592A6C1A6700DE77AA",
+        "name" : "TemperatureTrackerTests"
+      }
+    }
+  ],
+  "version" : 1
+}
