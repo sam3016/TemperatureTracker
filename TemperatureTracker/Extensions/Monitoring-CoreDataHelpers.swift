@@ -13,8 +13,7 @@ extension Monitoring {
     }
 
     var measurementCreationDate: Date {
-        get { creationDate ?? .now }
-        set { creationDate = newValue }
+        creationDate ?? .now
     }
 
     var measurementDate: Date {
@@ -46,6 +45,10 @@ extension Monitoring: Comparable {
         let left = lhs.measurementCreationDate
         let right = rhs.measurementCreationDate
 
-        return left < right
+        if left == right {
+            return lhs.measurementDate < rhs.measurementDate
+        } else {
+            return left < right
+        }
     }
 }

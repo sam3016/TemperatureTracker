@@ -195,6 +195,11 @@ class DataController: ObservableObject {
         return allMeasurements
     }
 
+    func averageTemperatureByMonth(date: Date) -> Double {
+        let measurements = measurementByMonth(date: date).map { $0.measurementTemperature }
+        return measurements.reduce(0, +)
+    }
+
     func count<T>(for fetchRequest: NSFetchRequest<T>) -> Int {
         (try? container.viewContext.count(for: fetchRequest)) ?? 0
     }

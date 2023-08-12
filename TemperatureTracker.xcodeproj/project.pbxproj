@@ -13,6 +13,7 @@
 		A165AEB22A6C2CA50054B3DE /* DevelopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A165AEB12A6C2CA50054B3DE /* DevelopmentTests.swift */; };
 		A16F99F72A6C1DD0008A0426 /* MeasurementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F99F62A6C1DD0008A0426 /* MeasurementTests.swift */; };
 		A17544FD2A640D8200213BC4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17544FC2A640D8200213BC4 /* DetailView.swift */; };
+		A191FF662A828A7900778180 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A191FF652A828A7900778180 /* ExtensionTests.swift */; };
 		A1B014E72A62537700A734F6 /* MeasurementRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B014E62A62537700A734F6 /* MeasurementRow.swift */; };
 		A1B014E92A62545400A734F6 /* NoMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B014E82A62545400A734F6 /* NoMeasurementView.swift */; };
 		A1D49DFC2A64F532008862F1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1D49DFE2A64F532008862F1 /* Localizable.strings */; };
@@ -44,6 +45,7 @@
 		A16F99F52A6C1BB3008A0426 /* TemperatureTracker.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TemperatureTracker.xctestplan; sourceTree = "<group>"; };
 		A16F99F62A6C1DD0008A0426 /* MeasurementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementTests.swift; sourceTree = "<group>"; };
 		A17544FC2A640D8200213BC4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A191FF652A828A7900778180 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 		A1B014E62A62537700A734F6 /* MeasurementRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementRow.swift; sourceTree = "<group>"; };
 		A1B014E82A62545400A734F6 /* NoMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoMeasurementView.swift; sourceTree = "<group>"; };
 		A1B014EA2A62683200A734F6 /* TemperatureTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TemperatureTracker.entitlements; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				A1319D5C2A6C1A6700DE77AA /* TemperatureTrackerTests.swift */,
 				A16F99F62A6C1DD0008A0426 /* MeasurementTests.swift */,
 				A165AEB12A6C2CA50054B3DE /* DevelopmentTests.swift */,
+				A191FF652A828A7900778180 /* ExtensionTests.swift */,
 			);
 			path = TemperatureTrackerTests;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				A16F99F72A6C1DD0008A0426 /* MeasurementTests.swift in Sources */,
 				A1319D5D2A6C1A6700DE77AA /* TemperatureTrackerTests.swift in Sources */,
 				A165AEB22A6C2CA50054B3DE /* DevelopmentTests.swift in Sources */,
+				A191FF662A828A7900778180 /* ExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
